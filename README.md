@@ -1,1 +1,1 @@
-# PortfolioSite
+This is my portfolio that is used to display projects and information about myself.
