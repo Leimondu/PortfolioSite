@@ -10,7 +10,7 @@ body {
     background-color: var(--main-color);
     color: var(--secondary-white);
     margin: 0;
-    font-family: "Cascadia Code", monospace;
+    font-family: "Fira Code", monospace;
 }
 
 li {
@@ -134,7 +134,7 @@ footer{
     text-decoration: underline;
 }
 
-#about-me-text {
+.about-me-text {
     align-content: center;
     text-align: center;
     width: 60%;
@@ -151,7 +151,7 @@ footer{
 .project-box {
     margin-top: 30px;
     width: 1000px;
-    height: 400px;
+    height: 410px;
     border: 2px solid var(--secondary-dark);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
@@ -162,7 +162,7 @@ footer{
     width:50%;
     height: 380px;
     background-color: var(--secondary-dark);
-    margin-top: 1%;
+    margin-top: 15px;
     margin-right: 15px;
     margin-left: 10px;
 }
@@ -181,11 +181,29 @@ footer{
 }
 
 .lang-logo {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     padding:5px;
 }
 
+.link-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 60px;
+    align-items: center;
+    cursor: pointer;
+}
+
+#github-logo {
+    width: 40px;
+    height: 40px;
+    padding:5px;
+}
+#github-logo:hover {
+    width: 50px;
+    height: 50px;
+}
 #metronome-img {
     width: 100%;
     height: 100%;
